@@ -1,17 +1,23 @@
 {
   "name": "clear-node-modules",
-  "description": "",
+  "description": "Clear node modules directory",
   "version": "1.0.0",
   "keywords": [],
   "author": "Molcsan",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/molcsan/clear-node-modules.git"
+    "url": "git+https://github.com/molcsan/clear-node-modules.git"
   },
   "bin": {
     "clear-node-modules": "index.js"
   },
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/molcsan/clear-node-modules/issues"
+  },
+  "homepage": "https://github.com/molcsan/clear-node-modules#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "clear-node-modules"
   }
 }
