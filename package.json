@@ -18,6 +18,6 @@
   "homepage": "https://github.com/molcsan/clear-node-modules#readme",
   "main": "index.js",
   "scripts": {
-    "test": "clear-node-modules"
+    "test": "npm install react && node index.js && npm uninstall react"
   }
 }

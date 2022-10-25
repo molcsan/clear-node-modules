@@ -11,6 +11,6 @@ if (fs.existsSync(nodeModulesDir)) {
             throw err
         }
 
-        console.log(`${dir} is deleted!`)
+        console.log(`${nodeModulesDir} is deleted!`)
     })
 }
