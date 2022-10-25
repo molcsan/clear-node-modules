@@ -1,0 +1,10 @@
+{
+  "name": "clear-node-modules",
+  "version": "1.0.0",
+  "repository": "git://github.com/molcsan/clear-node-modules.git",
+  "bin": {
+    "clear-node-modules": "index.js"
+  },
+  "dependencies": {
+  }
+}
