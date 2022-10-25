@@ -9,14 +9,11 @@
     "type": "git",
     "url": "git+https://github.com/molcsan/clear-node-modules.git"
   },
-  "bin": {
-    "clear-node-modules": "index.js"
-  },
+  "bin": "./index.js",
   "bugs": {
     "url": "https://github.com/molcsan/clear-node-modules/issues"
   },
   "homepage": "https://github.com/molcsan/clear-node-modules#readme",
-  "main": "index.js",
   "scripts": {
     "test": "npm install react && node index.js && npm uninstall react"
   }
