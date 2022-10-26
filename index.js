@@ -14,3 +14,14 @@ if (fs.existsSync(nodeModulesDir)) {
         console.log(`Deleted node modules dir`);
     })
 }
+
+// Delete package-lock.json if exists
+if (fs.existsSync('package-lock.json')) {
+    fs.rm('package-lock.json', err => {
+        if (err) {
+            throw err
+        }
+
+        console.log(`Deleted package-lock.json`);
+    })
+}
